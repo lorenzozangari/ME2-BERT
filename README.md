@@ -1,6 +1,6 @@
 # ME²-BERT: Are Events and Emotions what you need for Moral Foundations Prediction?
 
-Source code of the framework presented in *ME²-BERT: Are Events and Emotions what you need for Moral Foundations Prediction?"*, accepted at COLING 2025.
+Source code of the framework presented in *ME²-BERT: Are Events and Emotions what you need for Moral Foundations Prediction?*, accepted at COLING 2025.
 
 > Moralities, emotions, and events are complex aspects of human cognition, which are often treated separately since capturing their combined effects is challenging, especially due to the lack of annotated data. Leveraging their interrelations hence becomes crucial for advancing the understanding of human moral behaviors.
 In this work, we propose ME²-BERT, the first holistic  framework integrating moralities, emotions, and events within a domain adaptation strategy. 
