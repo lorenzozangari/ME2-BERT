@@ -42,7 +42,7 @@ But if it wasn't her, then who killed the British woman with 43 stab wounds?"
 **Moral columns**:
 | care | harm | fairness | cheating | loyalty | betrayal | authority | subversion | purity | degradation |
 |-------------|-------------|-----------------|-----------------|----------------|-----------------|------------------|-------------------|---------------|--------------------|
-| 0.0         | 0.9854118   | 0.0             | 0.9006142       | 0.0            | 0.910691        | 0.0              | 0.0               | 0.0           | 0.22056311         |
+| 0.0         | 0.985  | 0.0             | 0.901      | 0.0            | 0.910        | 0.0              | 0.0               | 0.0           | 0.221        |
 
 **Emotion columns**:
 | anticipation | trust | disgust | joy  | optimism | surprise | love | anger | sadness | pessimism | fear |
