@@ -1,0 +1,7 @@
+emoji==2.12.1
+numpy==1.26.4
+pandas==2.2.1
+scikit-learn==1.4.2
+torch==2.0.1
+tqdm==4.66.1
+transformers==4.37.0
