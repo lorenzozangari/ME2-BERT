@@ -12,7 +12,7 @@ with an average percentage increase up to 35% in the out-of-domain scenario.
 For an example of its usage, refer to the  [me2bert_example.ipynb](me2bert_example.ipynb) notebook.**
 
 ## Data
-We trained $ME^2$-BERT on the [E2MoCase](https://arxiv.org/pdf/2409.09001) dataset. However, you can use any dataset that includes events and/or emotions to train our framework. The data you use must be in CSV format and must contain (at least) the following columns:
+We trained ME²-BERT on the [E2MoCase](https://arxiv.org/pdf/2409.09001) dataset. However, you can use any dataset that includes events and/or emotions to train our framework. The data you use must be in CSV format and must contain (at least) the following columns:
 
 - `text`: Input text  
 - `event`: List of events in JSON format  
@@ -161,6 +161,7 @@ The required libraries are listed in the *requirements.txt*.
 - Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz
 
 ## References
+
 ```
 Lorenzo Zangari, Candida M. Greco, Davide Picca, Andrea Tagarelli. "ME²-BERT: Are Events and Emotions what you need for Moral Foundations Prediction?" Proceedings of the 31st International Conference on Computational Linguistics (COLING), Abu Dhabi, UAE, January 19–24, 2025. Association for Computational Linguistics.
 ```
