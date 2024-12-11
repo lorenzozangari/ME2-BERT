@@ -73,7 +73,6 @@ You can check out all the parameters in the *utils/params.py* script.
 
 ### Input arguments
 
-### Input Arguments for the Model Training and Evaluation Pipeline
 
 The following are the input arguments used in the script, along with their descriptions and default values:
 
