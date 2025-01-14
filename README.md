@@ -11,7 +11,7 @@ Our extensive experiments show that ME²-BERT outperforms existing state-of-the-
 For an example of its usage, refer to the  [me2bert_example.ipynb](me2bert_example.ipynb) notebook.**
 
 ## Data
-We trained ME²-BERT on the [E2MoCase](https://arxiv.org/pdf/2409.09001) dataset. However, you can use any dataset that includes events and/or emotions to train our framework. The data you use must be in CSV format and must contain (at least) the following columns:
+We trained ME²-BERT on the [E2MoCase](https://arxiv.org/pdf/2409.09001) dataset (available upon request). However, you can use any dataset that includes events and/or emotions to train our framework. The data you use must be in CSV format and must contain (at least) the following columns:
 
 - `text`: Input text  
 - `event`: List of events in JSON format  
