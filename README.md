@@ -3,9 +3,8 @@
 Source code of the framework presented in *ME²-BERT: Are Events and Emotions what you need for Moral Foundation Prediction?*, accepted at COLING 2025.
 
 > Moralities, emotions, and events are complex aspects of human cognition, which are often treated separately since capturing their combined effects is challenging, especially due to the lack of annotated data. Leveraging their interrelations hence becomes crucial for advancing the understanding of human moral behaviors.
-In this work, we propose ME²-BERT, the first holistic  framework integrating moralities, emotions, and events within a domain adaptation strategy. 
-Our extensive experiments show that ME²-BERT significantly outperforms existing state-of-the-art methods for moral value prediction,
-with an average percentage increase up to 35% in the out-of-domain scenario.
+In this work, we propose ME²-BERT, the first holistic  framework for fine-tuning a pre-trained language model like BERT to the task of moral foundation prediction. ME²-BERT integrates events and emotions for learning domain-invariant morality-relevant text representations. 
+Our extensive experiments show that ME²-BERT outperforms existing state-of-the-art methods for moral foundation prediction, with an average percentage increase up to 35% in the out-of-domain scenario.
 
 
 **The model is available on [HuggingFace](https://huggingface.co/lorenzozan/ME2-BERT). 
@@ -16,8 +15,8 @@ We trained ME²-BERT on the [E2MoCase](https://arxiv.org/pdf/2409.09001) dataset
 
 - `text`: Input text  
 - `event`: List of events in JSON format  
-- `care`, `harm`, `fairness`, `cheating`, `loyalty`, `betrayal`, `authority`, `subversion`, `purity`, `degradation`: Scores associated with moral values  
-- `anticipation`, `trust`, `disgust`, `joy`, `optimism`, `surprise`, `love`, `anger`, `sadness`, `pessimism`, `fear`: Scores associated with emotion values
+- `care`, `harm`, `fairness`, `cheating`, `loyalty`, `betrayal`, `authority`, `subversion`, `purity`, `degradation`: Real-valued scores (within 0 and 1) associated with moral values  
+- `anticipation`, `trust`, `disgust`, `joy`, `optimism`, `surprise`, `love`, `anger`, `sadness`, `pessimism`, `fear`: Real-valued scores (within 0 and 1) associated with emotion values
 
 Note that it is necessary to have rows both with and without events to use our domain identification strategy. If you wish to adopt a different event-based domain identification strategy, modify the script *input_data/load_data.py*.
 
@@ -67,7 +66,7 @@ To train the model, run the **train.py** script with the following command:
 python train.py --data_path './data/e2mocase_full.csv' --transformation --contrastive --batch_size 8 --n_epoch 10 --device 0 --pretrained_model 'bert-base-uncased' --max_seq_len 256
 ```
 
-which fine-tune a BERT-based model (--pretrained_model) on the E2MoCase dataset (--data_path)  for 10 epochs (--epoch) and with batch size equal to 8 (--batch-size)- using the denoising auto-encoder as transformation function (--transformation) and the contrastive term (--contrastive) to .
+which fine-tunes a BERT-based model (--pretrained_model) on the E2MoCase dataset (--data_path)  for 10 epochs (--epoch) and with batch size equal to 8 (--batch-size)- using the denoising auto-encoder as transformation function (--transformation) and the contrastive term (--contrastive).
 
 You can check out all the parameters in the *utils/params.py* script.
 
@@ -162,5 +161,11 @@ The required libraries are listed in the *requirements.txt*.
 ## References
 
 ```
-Lorenzo Zangari, Candida M. Greco, Davide Picca, Andrea Tagarelli. "ME²-BERT: Are Events and Emotions what you need for Moral Foundation Prediction?" Proceedings of the 31st International Conference on Computational Linguistics (COLING), Abu Dhabi, UAE, January 19–24, 2025. Association for Computational Linguistics.
+@inproceedings{me2bert,
+  author    = {Lorenzo Zangari and Candida M. Greco and Davide Picca and Andrea Tagarelli},
+  title     = {{ME²-BERT: Are Events and Emotions what you need for Moral Foundation Prediction?}},
+  booktitle = {Proceedings of the 31st International Conference on Computational Linguistics (COLING)},
+  publisher = {Association for Computational Linguistics},
+  year      = {2025}
+}
 ```
