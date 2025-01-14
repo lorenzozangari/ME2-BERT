@@ -163,7 +163,7 @@ The required libraries are listed in the *requirements.txt*.
 ```
 @inproceedings{me2bert,
   author    = {Lorenzo Zangari and Candida M. Greco and Davide Picca and Andrea Tagarelli},
-  title     = {{ME²-BERT: Are Events and Emotions what you need for Moral Foundation Prediction?}},
+  title     = {ME²-BERT: Are Events and Emotions what you need for Moral Foundation Prediction?},
   booktitle = {Proceedings of the 31st International Conference on Computational Linguistics (COLING)},
   publisher = {Association for Computational Linguistics},
   year      = {2025}
