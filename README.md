@@ -1,4 +1,4 @@
-# ME²-BERT: Are Events and Emotions what you need for Moral Foundations Prediction?
+# ME²-BERT - Moral Foundation Prediction through Events and Emotions
 
 Source code of the framework presented in *ME²-BERT: Are Events and Emotions what you need for Moral Foundation Prediction?*, accepted at COLING 2025.
 
