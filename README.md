@@ -161,11 +161,15 @@ The required libraries are listed in the *requirements.txt*.
 ## References
 
 ```
-@inproceedings{me2bert,
-  author    = {Lorenzo Zangari and Candida M. Greco and Davide Picca and Andrea Tagarelli},
-  title     = {ME²-BERT: Are Events and Emotions what you need for Moral Foundation Prediction?},
-  booktitle = {Proceedings of the 31st International Conference on Computational Linguistics (COLING)},
-  publisher = {Association for Computational Linguistics},
-  year      = {2025}
+@inproceedings{zangari-etal-2025-me2,
+    title = "{ME}2-{BERT}: Are Events and Emotions what you need for Moral Foundation Prediction?",
+    author = "Zangari, Lorenzo  and
+      Greco, Candida M.  and
+      Picca, Davide  and
+      Tagarelli, Andrea",
+      publisher = "Association for Computational Linguistics",
+      url = "https://aclanthology.org/2025.coling-main.638/",
+      pages = "9516--9532",
+      abstract = "Moralities, emotions, and events are complex aspects of human cognition, which are often treated separately since capturing their combined effects is challenging, especially due to the lack of annotated data. Leveraging their interrelations hence becomes crucial for advancing the understanding of human moral behaviors. In this work, we propose ME2-BERT, the first holistic framework for fine-tuning a pre-trained language model like BERT to the task of moral foundation prediction. ME2-BERT integrates events and emotions for learning domain-invariant morality-relevant text representations. Our extensive experiments show that ME2-BERT outperforms existing state-of-the-art methods for moral foundation prediction, with an average increase up to 35{\%} in the out-of-domain scenario."
 }
 ```
