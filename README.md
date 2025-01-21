@@ -1,13 +1,13 @@
 # ME²-BERT - Moral Foundation Prediction through Events and Emotions
 
-Source code of the framework presented in *ME²-BERT: Are Events and Emotions what you need for Moral Foundation Prediction?*, accepted at COLING 2025.
+Source code of the framework presented in [*ME²-BERT: Are Events and Emotions what you need for Moral Foundation Prediction?*](https://github.com/lorenzozangari/ME2-BERT), presented at COLING 2025.
 
 > Moralities, emotions, and events are complex aspects of human cognition, which are often treated separately since capturing their combined effects is challenging, especially due to the lack of annotated data. Leveraging their interrelations hence becomes crucial for advancing the understanding of human moral behaviors.
 In this work, we propose ME²-BERT, the first holistic  framework for fine-tuning a pre-trained language model like BERT to the task of moral foundation prediction. ME²-BERT integrates events and emotions for learning domain-invariant morality-relevant text representations. 
 Our extensive experiments show that ME²-BERT outperforms existing state-of-the-art methods for moral foundation prediction, with an average percentage increase up to 35% in the out-of-domain scenario.
 
 
-**The model is available on [HuggingFace](https://huggingface.co/lorenzozan/ME2-BERT). 
+**The model is available on [HuggingFace](https://huggingface.co/lorenzozan/ME2-BERT). The paper is available [here](https://github.com/lorenzozangari/ME2-BERT).
 For an example of its usage, refer to the  [me2bert_example.ipynb](me2bert_example.ipynb) notebook.**
 
 ## Data
