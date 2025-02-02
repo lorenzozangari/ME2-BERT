@@ -7,11 +7,11 @@ In this work, we propose ME²-BERT, the first holistic  framework for fine-tunin
 Our extensive experiments show that ME²-BERT outperforms existing state-of-the-art methods for moral foundation prediction, with an average percentage increase up to 35% in the out-of-domain scenario.
 
 
-**[HuggingFace](https://huggingface.co/lorenzozan/ME2-BERT) | [Paper](https://github.com/lorenzozangari/ME2-BERT) | [WebApp](https://huggingface.co/spaces/lorenzozan/ME2BERT)
+**[HuggingFace](https://huggingface.co/lorenzozan/ME2-BERT) | [Paper](https://github.com/lorenzozangari/ME2-BERT) | [WebApp](https://huggingface.co/spaces/lorenzozan/ME2BERT)**
 
 
 
-For an example of its usage, refer to the  [me2bert_example.ipynb](me2bert_example.ipynb) notebook.**
+**For an example of its usage, refer to the  [me2bert_example.ipynb](me2bert_example.ipynb) notebook.**
 
 ## Data
 We trained ME²-BERT on the [E2MoCase](https://arxiv.org/pdf/2409.09001) dataset (available upon request). However, you can use any dataset that includes events and/or emotions to train our framework. The data you use must be in CSV format and must contain (at least) the following columns:
