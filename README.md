@@ -7,7 +7,7 @@ In this work, we propose ME²-BERT, the first holistic  framework for fine-tunin
 Our extensive experiments show that ME²-BERT outperforms existing state-of-the-art methods for moral foundation prediction, with an average percentage increase up to 35% in the out-of-domain scenario.
 
 
-**The model is available on [HuggingFace](https://huggingface.co/lorenzozan/ME2-BERT). The paper is available [here](https://github.com/lorenzozangari/ME2-BERT).
+**[HuggingFace](https://huggingface.co/lorenzozan/ME2-BERT) | [Paper](https://github.com/lorenzozangari/ME2-BERT) | [WebApp](https://huggingface.co/spaces/lorenzozan/ME2BERT)
 For an example of its usage, refer to the  [me2bert_example.ipynb](me2bert_example.ipynb) notebook.**
 
 ## Data
