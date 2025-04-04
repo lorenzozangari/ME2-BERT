@@ -168,9 +168,11 @@ Models were trained using an Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz CUDA 11.8
       Greco, Candida M.  and
       Picca, Davide  and
       Tagarelli, Andrea",
-      publisher = "Association for Computational Linguistics",
-      url = "https://aclanthology.org/2025.coling-main.638/",
-      pages = "9516--9532",
-      abstract = "Moralities, emotions, and events are complex aspects of human cognition, which are often treated separately since capturing their combined effects is challenging, especially due to the lack of annotated data. Leveraging their interrelations hence becomes crucial for advancing the understanding of human moral behaviors. In this work, we propose ME2-BERT, the first holistic framework for fine-tuning a pre-trained language model like BERT to the task of moral foundation prediction. ME2-BERT integrates events and emotions for learning domain-invariant morality-relevant text representations. Our extensive experiments show that ME2-BERT outperforms existing state-of-the-art methods for moral foundation prediction, with an average increase up to 35{\%} in the out-of-domain scenario."
+    booktitle = "Proceedings of the 31st International Conference on Computational Linguistics (COLING)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.coling-main.638/",
+    pages = "9516--9532",
+    year = "2025",
+    abstract = "Moralities, emotions, and events are complex aspects of human cognition, which are often treated separately since capturing their combined effects is challenging, especially due to the lack of annotated data. Leveraging their interrelations hence becomes crucial for advancing the understanding of human moral behaviors. In this work, we propose ME2-BERT, the first holistic framework for fine-tuning a pre-trained language model like BERT to the task of moral foundation prediction. ME2-BERT integrates events and emotions for learning domain-invariant morality-relevant text representations. Our extensive experiments show that ME2-BERT outperforms existing state-of-the-art methods for moral foundation prediction, with an average increase up to 35{\%} in the out-of-domain scenario."
 }
 ```
