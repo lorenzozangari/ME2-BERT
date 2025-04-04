@@ -154,12 +154,10 @@ The following are the input arguments used in the script, along with their descr
 - `--transformation` (default: `False`):  
   Flag to enable the use of an autoencoder for transformation tasks.
 
-## Requirements and environments
+## Requirements
 The required libraries are listed in the *requirements.txt*.
 
-- CUDA 11.8
-- GPU NVIDIA A30 
-- Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz
+Models were trained using an Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz CUDA 11.8, GPU NVIDIA A30 environment.
 
 ## References
 
